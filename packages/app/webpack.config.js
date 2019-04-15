@@ -2,7 +2,7 @@ const webpack = require("webpack");
 const path = require("path");
 
 module.exports = {
-  entry: path.resolve(__dirname, "src"),
+  entry: path.resolve(__dirname, "src", "index.partial.hydration.js"),
   output: {
     path: path.resolve(__dirname, "/dist"),
     publicPath: "/",
