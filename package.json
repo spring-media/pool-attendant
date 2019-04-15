@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "pool-attendant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
