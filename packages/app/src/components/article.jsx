@@ -1,6 +1,5 @@
 import { h } from "preact";
-// import { Component } from "preact";
-import { Component } from "preact/src/component";
+import { Component } from "preact";
 
 export default class Article extends Component {
   state = {

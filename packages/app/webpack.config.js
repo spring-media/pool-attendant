@@ -14,7 +14,6 @@ module.exports = {
   resolve: {
     extensions: [".jsx", ".js"]
   },
-
   module: {
     rules: [
       {
@@ -23,5 +22,12 @@ module.exports = {
         loader: "babel-loader"
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      "process.env": {
+        NODE_ENV: JSON.stringify("development")
+      }
+    })
+  ]
 };
